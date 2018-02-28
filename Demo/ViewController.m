@@ -30,7 +30,8 @@
         //        aaa.view.backgroundColor = [UIColor grayColor];
         //        [weakSelf presentViewController:aaa animated:YES completion:nil];
     };
-
+    
+    [self.view addSubview:_floatWindow];
 }
 
 - (void)viewDidLoad {

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DYYFloatWindow : UIWindow
+@interface DYYFloatWindow : UIView
 
 @property (nonatomic,copy) void(^clickBolcks)(NSInteger i);
 

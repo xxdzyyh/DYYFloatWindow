@@ -63,9 +63,6 @@
         _isShowTab = FALSE;
 
         self.backgroundColor = [UIColor clearColor];
-        self.windowLevel = UIWindowLevelAlert + 1;  //如果想在 alert 之上，则改成 + 2
-        self.rootViewController = [UIViewController new];
-        [self makeKeyAndVisible];
         
         _bgcolor = bgcolor;
         _frameWidth = frame.size.width;
